@@ -13,7 +13,6 @@
 // Explanation: The last word is "World" with length 5.
 
 var lengthOfLastWord = function(s) {
-    console.log(s.length);
     let length = 0;
     let inWord = false;
     for (let i = s.length - 1; i >= 0; i--) {
@@ -27,7 +26,7 @@ var lengthOfLastWord = function(s) {
             break;
         }
     }
-    return length
+    return length;
 };
 
 console.log(lengthOfLastWord('hola como estas'))
