@@ -32,20 +32,15 @@ var romanToInt = function(s) {
 
     let total = 0;
     for (let i = 0; i < s.length; i++) {
-        // Valor actual y siguiente en el número romano
-        const currentVal = romanMap[s[i]];
-        console.log('current', currentVal)
-        const nextVal = romanMap[s[i + 1]];
-        console.log('next', nextVal)
 
-        // Si el valor actual es menor que el siguiente, resta el valor actual
+        const currentVal = romanMap[s[i]]; 
+        const nextVal = romanMap[s[i + 1]];
+
+
         if (currentVal < nextVal) {
             total -= currentVal;
-            console.log('tot', total)
         } else {
             total += currentVal;
-            console.log('tot', total)
-
         }
     }
 
