@@ -1,0 +1,37 @@
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10rem auto;
+}
+
+.box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: #9C9583 solid 2px;
+    width: 5rem;
+    height: 5rem;
+    background-color: #E6E1D8;
+    border-radius: 2px;
+}
+
+.blue {
+    background-color: #1B99C8;
+
+}
+
+.yellow {
+    background-color: #E3C636;
+}
+
+.violet {
+    background-color: #874C7F;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px 2px;
+    padding: 7px;
+}
